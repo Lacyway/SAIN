@@ -233,7 +233,7 @@ namespace SAIN.SAINComponent.Classes
             else
             {
                 player.ProcessStatus = EProcessStatus.None;
-                player.SetFirstAvailableItem(PlayerOwner.Class1643.class1643_0.method_0);
+                player.SetFirstAvailableItem(new Callback<IHandsController>(PlayerOwner.Class1643.class1643_0.method_0));
             }
 
             player.SetInventoryOpened(false);
